@@ -65,7 +65,7 @@ export default {
 } satisfies ExportedHandler;
 ```
 
-線上位址： `https://ai-notes.shonen.workers.dev/`。首次部署已自動建立 D1 `ai-notes`、R2 `ai-notes-media`、KV `ai-notes-session`。
+線上位址： `https://ai-notes.maou.app/`。首次部署已自動建立 D1 `ai-notes`、R2 `ai-notes-media`、KV `ai-notes-session`。
 線上 setup 尚未完成，首頁顯示空站狀態。必須在正式網域跑一次 `/_emdash/admin` setup，否則 passkey 綁錯網域。
 本地驗證文 `hello-ai-notes` 與草稿檢查文只存在本機 D1，未進線上庫。部署前 `dist/` 經 grep 確認無 `DRAFT-NEVER-PUBLISH`。
 
