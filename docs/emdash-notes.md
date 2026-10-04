@@ -2,7 +2,7 @@
 
 凍結日期： 2026-10-04
 來源： https://docs.emdashcms.com/getting-started/ ， https://docs.emdashcms.com/deployment/cloudflare/ ， https://docs.emdashcms.com/existing-project/
-本機實測： node v24.21.0， npm 11.19.0， astro v7.3.5， wrangler 4.147.0
+本機實測： node v24.21.0， pnpm 12.9.0， astro v7.3.5， wrangler 4.147.0
 
 ## 決策
 

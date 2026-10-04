@@ -40,8 +40,8 @@
 ## Local Development
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 Open http://localhost:4321/_emdash/admin and complete the setup wizard. EmDash runs database migrations and applies the blog seed during setup. The site is available at http://localhost:4321.
@@ -49,8 +49,8 @@ Open http://localhost:4321/_emdash/admin and complete the setup wizard. EmDash r
 ## Deploying
 
 ```bash
-npx wrangler login
-npm run deploy
+pnpm exec wrangler login
+pnpm deploy
 ```
 
 The first deployment provisions the named D1 database and R2 bucket from `wrangler.jsonc`. See [Deploy to Cloudflare](https://docs.emdashcms.com/deployment/cloudflare/) for production setup, or use the deploy button above.
