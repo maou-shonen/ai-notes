@@ -65,8 +65,9 @@ export default {
 } satisfies ExportedHandler;
 ```
 
-本地開發用 SQLite 加 uploads 目錄。上雲後 D1 加 R2。
-`.env` 的 `EMDASH_ENCRYPTION_KEY` 不進 git，遺失則外掛密文無法解密。
+線上位址： `https://ai-notes.shonen.workers.dev/`。首次部署已自動建立 D1 `ai-notes`、R2 `ai-notes-media`、KV `ai-notes-session`。
+線上 setup 尚未完成，首頁顯示空站狀態。必須在正式網域跑一次 `/_emdash/admin` setup，否則 passkey 綁錯網域。
+本地驗證文 `hello-ai-notes` 與草稿檢查文只存在本機 D1，未進線上庫。部署前 `dist/` 經 grep 確認無 `DRAFT-NEVER-PUBLISH`。
 
 ## Post 形狀
 
